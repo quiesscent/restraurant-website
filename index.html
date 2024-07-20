@@ -20,7 +20,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.8;
-    margin: 20px;
+    margin: 40px;
     }
     .category-two{
         padding: 80px;
@@ -28,7 +28,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.8;
-        margin: 20px;
+        margin: 40px;
     }
     .category-three{
         padding: 80px;
@@ -36,10 +36,24 @@
         background-size: cover;
         background-repeat: no-repeat;
         opacity: 0.8;
-        margin: 20px;
+        margin: 40px;
     }
     .category-align{
         text-align: center;
+    }
+    .special-product{
+        margin: 40px;
+    }
+
+    @media (max-width: 576px) {
+        .category-one,  .category-two, .category-three{
+            padding-top: 80px;
+            padding-bottom: 80px;
+           margin: 5px;
+        }
+        .special-product{
+            margin: 40px;
+        }
     }
     </style>
 </head>
@@ -79,6 +93,50 @@
             Cappuccino
            </p>
         </div>
+    </div>
+</div>
+
+
+
+
+<div class="container mt-4 mb-3">
+    <h2 class="text-center">
+        Special Products
+    </h2>
+    <div class="row category-align">
+
+        <div class="col-sm-3 special-product">
+            <div class="card" style="width: 18rem;">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/397/original/Premium_Photo___Hot_Coffee_Capuccino_Cup_With_Latte_Art_On_Wood_Table_At_Cafe.jpeg?1721423668" class="ms-1 me-1 mt-2 mb-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-sm-3 special-product ">
+            <div class="card" style="width: 18rem;">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/397/original/Premium_Photo___Hot_Coffee_Capuccino_Cup_With_Latte_Art_On_Wood_Table_At_Cafe.jpeg?1721423668" class="ms-1 me-1 mt-2 mb-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+        </div>
+
+
+
+        <div class="col-sm-3 special-product">
+            <div class="card" style="width: 18rem;">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/397/original/Premium_Photo___Hot_Coffee_Capuccino_Cup_With_Latte_Art_On_Wood_Table_At_Cafe.jpeg?1721423668" class="ms-1 me-1 mt-2 mb-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+        </div>
+
+
+
+
     </div>
 </div>
 
