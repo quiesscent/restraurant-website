@@ -19,6 +19,33 @@ let lastestButtonOnclick=document.getElementById("latest-button");
 let bestSellerButttonOnclick=document.getElementById("bestseller-button");
 let featuredButtonOnclick=document.getElementById("featured-button");
 
+
+
+
+let images=[
+  {
+    firstImage:"https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/697/original/How_to_Make_Cold_Brew_Coffee_At_Home_in_7_Easy_Steps.jpeg?1721595439",
+    secondImage:"https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/690/original/Low_Calorie_Homemade_Cold_Brew_Coffee.jpeg?1721594761",
+    thirdImage:"https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/523/original/The_School_of_Styling.jpeg?1721501583"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //latest category
 
 function  latestButton(){
@@ -31,6 +58,10 @@ function  latestButton(){
 nameOne.innerHTML=`Drip coffee`;
 nameTwo.innerHTML=`Frappe`;
 nameThree.innerHTML=`Nitro`;
+
+//images
+
+imageOne.innerHTML=`<img src=${images[0].firstImage}`;
 
 
 }
@@ -47,6 +78,11 @@ function featuredButton(){
    nameOne.innerHTML=`Irish Coffee`;
    nameTwo.innerHTML=`Australian Coffee`;
    nameThree.innerHTML=`Witches Coffee`;
+   
+
+
+
+
    
 }
 
