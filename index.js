@@ -17,21 +17,39 @@ let imageThree=document.getElementById("product-image-three");
 //buttons
 let lastestButtonOnclick=document.getElementById("latest-button");
 let bestSellerButttonOnclick=document.getElementById("bestseller-button");
+let featuredButtonOnclick=document.getElementById("featured-button");
 
 //latest category
 
 function  latestButton(){
   //prices
- priceOne.innerHTML=`$150`;
- priceTwo.innerHTML=`$200`;
-  priceThree.innerHTML=`$400`;
+ priceOne.innerHTML=`$150.00`;
+ priceTwo.innerHTML=`$200.00`;
+  priceThree.innerHTML=`$400.00`;
 
 //names
 nameOne.innerHTML=`Drip coffee`;
 nameTwo.innerHTML=`Frappe`;
 nameThree.innerHTML=`Nitro`;
 
+
 }
 
 
+
+
+function featuredButton(){
+    priceOne.innerHTML=`$98.00`;
+    priceTwo.innerHTML=`$122.00`;
+     priceThree.innerHTML=`$123.00`;
+   
+   //names
+   nameOne.innerHTML=`Irish Coffee`;
+   nameTwo.innerHTML=`Australian Coffee`;
+   nameThree.innerHTML=`Witches Coffee`;
+   
+}
+
+//buttons on clicks for top category
 lastestButtonOnclick.addEventListener("click", latestButton);
+featuredButtonOnclick.addEventListener("click", featuredButton);
