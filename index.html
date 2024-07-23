@@ -149,17 +149,17 @@ height: 300px;
         <div class="col-sm-12">
             <span class="col-sm-3">
 <button class="btn btn-warning rounded-5">
-FEATURED
+Featured
 </button>
 </span>
             <span class="col-sm-3">
-<button  class="btn btn-warning rounded-5">
-    LATEST
+<button onclick={latestButton} class="btn btn-warning rounded-5">
+    Latest
 </button>
 </span>
             <span class="col-sm-3">
-                <button  class="btn btn-warning rounded-5">
-    BESTSELLER
+                <button class="btn btn-warning rounded-5">
+    Bestseller
                 </button>
             </span>
 
@@ -167,7 +167,7 @@ FEATURED
 
         <div class="col-sm-3 special-product">
             <div class="card" style="width: 18rem;">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/672/original/White_Coffee_Cups_with_Lids___Sleeves.jpeg?1721591761" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/672/original/White_Coffee_Cups_with_Lids___Sleeves.jpeg?1721591761" class="ms-1 me-1 mt-2 mb-2 image-height"id="product-image-one" alt="...">
                 <div class="card-body">
                     <span class="text-center">
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
@@ -176,14 +176,12 @@ FEATURED
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                     </span>
-                  <h5 class="card-title mt-1 mb-2">Brandy Coffee</h5>
+                  <h5 class="card-title mt-1 mb-2" id="product-name-one">Brandy Coffee</h5>
 <p class="price-aligning">
-    <span>
+    <span id="product-price-one">
         $110.00
     </span>
-    <span class="previous-price ms-1">
-        $122.00
-    </span>
+   
 </p>
 
                 </div>
@@ -192,7 +190,7 @@ FEATURED
 
         <div class="col-sm-3 special-product ">
             <div class="card" style="width: 18rem;">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/673/original/Thai_Iced_Coffee.jpeg?1721591958" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/673/original/Thai_Iced_Coffee.jpeg?1721591958" class="ms-1 me-1 mt-2 mb-2 image-height" id="product-image-two"  alt="...">
                 <div class="card-body">
                     <span class="text-center">
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
@@ -201,9 +199,9 @@ FEATURED
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                     </span>
-                  <h5 class="card-title mt-1 mb-2">Caffee` Corretta</h5>
+                  <h5 class="card-title mt-1 mb-2" id="product-name-two">Caffee` Corretta</h5>
                   <p class="price-aligning">
-                    <span>
+                    <span  id="product-price-two">
                         $86.00
                     </span>
                    
@@ -216,7 +214,7 @@ FEATURED
 
         <div class="col-sm-3 special-product">
             <div class="card" style="width: 18rem;">
-                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/671/original/download_%2826%29.jpeg?1721591668" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/671/original/download_%2826%29.jpeg?1721591668" class="ms-1 me-1 mt-2 mb-2 image-height"id="product-image-three"  alt="...">
                 <div class="card-body">
                     <span class="text-center">
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
@@ -225,10 +223,10 @@ FEATURED
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                         <i class="fa-solid fa-star fa-sm" style="color: #B197FC;"></i>
                     </span>
-                  <h5 class="card-title mt-1 mb-2">Irish Caffee</h5>
+                  <h5 class="card-title mt-1 mb-2" id="product-name-three">Irish Caffee</h5>
 
                   <p class="price-aligning">
-                    <span class="current-price">
+                    <span class="current-price"  id="product-price-three">
                         $98.00
                     </span>
                    
@@ -539,7 +537,7 @@ benoit@gmail.com
 
 
 
-
+<script src="index.js"></script>
 
 
 </body>
