@@ -14,4 +14,24 @@ let imageOne=document.getElementById("product-image-one");
 let imageTwo=document.getElementById("product-image-two");
 let imageThree=document.getElementById("product-image-three");
 
-console.log(imageThree);
+//buttons
+let lastestButtonOnclick=document.getElementById("latest-button");
+let bestSellerButttonOnclick=document.getElementById("bestseller-button");
+
+//latest category
+
+function  latestButton(){
+  //prices
+ priceOne.innerHTML=`$150`;
+ priceTwo.innerHTML=`$200`;
+  priceThree.innerHTML=`$400`;
+
+//names
+nameOne.innerHTML=`Drip coffee`;
+nameTwo.innerHTML=`Frappe`;
+nameThree.innerHTML=`Nitro`;
+
+}
+
+
+lastestButtonOnclick.addEventListener("click", latestButton);
