@@ -60,9 +60,9 @@ nameTwo.innerHTML=`Frappe`;
 nameThree.innerHTML=`Nitro`;
 
 //images
-
-imageOne.innerHTML=`<img src=${images[0].firstImage}`;
-
+imageOne.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/277/original/download_%2833%29.jpeg?1721836579";
+imageTwo.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/278/original/Download_AI_generated_Chocolate_milk_shake_png_isolated_on_transparent_background_for_free.jpeg?1721836794";
+imageThree.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/282/original/Classic_Espresso_Tonic.jpeg?1721837312";
 
 }
 
@@ -75,12 +75,15 @@ function featuredButton(){
      priceThree.innerHTML=`$123.00`;
    
    //names
-   nameOne.innerHTML=`Irish Coffee`;
+   nameOne.innerHTML=`Spanish Coffee`;
    nameTwo.innerHTML=`Australian Coffee`;
    nameThree.innerHTML=`Witches Coffee`;
    
+//images
 
-
+imageOne.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/285/original/Caf%C3%A9_espagnol.jpeg?1721837679";
+imageTwo.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/288/original/Australian_Flat_White.jpeg?1721838424";
+imageThree.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/671/original/download_%2826%29.jpeg?1721591668";
 
 
    
