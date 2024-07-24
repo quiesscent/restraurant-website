@@ -8,12 +8,9 @@
     <script src="https://kit.fontawesome.com/9861babfd0.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
-      .main-section{
-        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/294/original/%D0%9A%D0%BE%D1%84%D0%B5.jpeg?1721841256);
-    padding:70px;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
+     .main-section-image{
+        height: 400px;
+     }
      
       .category-one{
         padding: 80px;
@@ -84,11 +81,7 @@ height: 300px;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='brown' d='M144 32S94.11 69.4 96 96c1.604 22.57 44.375 25.665 48 48c1.91 11.772-16 32-16 32s48-25.373 48-48s-42.8-25.978-48-48c-3.875-16.414 16-48 16-48m80 0s-49.89 37.4-48 64c1.604 22.57 44.375 25.665 48 48c1.91 11.772-16 32-16 32s48-25.373 48-48s-42.8-25.978-48-48c-3.875-16.414 16-48 16-48m80 0s-49.89 37.4-48 64c1.604 22.57 44.375 25.665 48 48c1.91 11.772-16 32-16 32s48-25.373 48-48s-42.8-25.978-48-48c-3.875-16.414 16-48 16-48M73.293 201c1.43 63.948 18.943 179.432 74.707 238h152c55.764-58.568 73.278-174.052 74.707-238zm319.598.445c-.186 9.152-.652 19.252-1.472 30.057C419.312 235.162 441 259.142 441 288c0 31.374-25.626 57-57 57a56.7 56.7 0 0 1-12.764-1.465c-2.912 9.62-6.176 19.165-9.84 28.51A87.5 87.5 0 0 0 384 375c48.155 0 87-38.845 87-87c0-45.153-34.153-82.12-78.11-86.555zM42.763 457c1.507 5.193 3.854 11.2 6.955 16.37c2.637 4.394 5.69 8.207 8.428 10.58C60.882 486.32 63 487 64 487h320c1 0 3.118-.678 5.855-3.05c2.738-2.373 5.79-6.186 8.428-10.58c3.1-5.17 5.448-11.177 6.955-16.37z'/%3E%3C/svg%3E");
   margin-right: 100px;
 }
-.mini-logo{
-    height: 20px;
-    display: block;
-    margin: 0 auto;
-}
+
     @media (max-width: 576px) {
         .category-one,  .category-two, .category-three{
             padding-top: 80px;
@@ -111,8 +104,11 @@ height: 300px;
     </style>
 </head>
 <body>
-        <div class="row main-section">
-            <div class="col-sm-4 text-warning">
+        <div class="row ">
+            <div class="col-sm-6">
+                <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/302/original/Coffee__The_health_benefits_and_hindrances.jpeg?1721842095" alt=""class="img-fluid main-section-image w-100">
+            </div>
+            <div class="col-sm-6 text-warning">
                 <h1>
                     Freshly roasted coffee
                 </h1>
@@ -277,14 +273,14 @@ Featured
 
 
     <div class="row">
-        <div class="col-sm-3 ms-2">
+        <div class="col-sm-4">
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/696/original/11b6ba89-6de0-4445-8c3b-7fc87ffa033b.jpeg?1721595294" alt=""class="img-fluid w-100 semi-imageheight">
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/697/original/How_to_Make_Cold_Brew_Coffee_At_Home_in_7_Easy_Steps.jpeg?1721595439" alt=""class="img-fluid mt-1 w-100 semi-imageheight">
         </div>
         <div class="col-sm-4">
             <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/689/original/download_%2831%29.jpeg?1721594592" alt=""class="img-fluid w-100 main-imageheight">
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-4">
               <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/690/original/Low_Calorie_Homemade_Cold_Brew_Coffee.jpeg?1721594761" alt=""class="img-fluid w-100 semi-imageheight">
             <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/691/original/50_Best_Coffee_Shop_Concept_Ideas_%282024%29___Coffee_Shop_Startups.jpeg?1721594851" alt=""class="img-fluid w-100 mt-1 semi-imageheight">
         </div>
@@ -313,6 +309,9 @@ Featured
 
         <div class="col-sm-3 special-product">
             <div class="card" style="width: 18rem;">
+                <p class="btn ">
+                    -20%
+                </p>
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/672/original/White_Coffee_Cups_with_Lids___Sleeves.jpeg?1721591761" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
                 <div class="card-body">
                     <span class="text-center">
@@ -340,6 +339,9 @@ Featured
 
         <div class="col-sm-3 special-product ">
             <div class="card" style="width: 18rem;">
+                <p class="btn ">
+                    -20%
+                </p>
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/673/original/Thai_Iced_Coffee.jpeg?1721591958" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
                 <div class="card-body">
                     <span class="text-center">
@@ -369,6 +371,9 @@ Featured
 
         <div class="col-sm-3 special-product">
             <div class="card" style="width: 18rem;">
+                <p class="btn ">
+                    -20%
+                </p>
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/134/671/original/download_%2826%29.jpeg?1721591668" class="ms-1 me-1 mt-2 mb-2 image-height" alt="...">
                 <div class="card-body">
                     <span class="text-center">
@@ -465,31 +470,24 @@ Featured
 <div class="container">
     <div class="row">
         <div class="col-sm-3">
-<h3>
-    Contacts
-</h3>
 
-<span>
-<i class="fa-solid fa-location-dot" style="color: #B197FC;"></i>
-<span>
-    Culinary City, CC 12345
-</span>
-</span>
 
-<div>
-<i class="fa-solid fa-phone" style="color: #B197FC;"></i>
-<span>
-    +1-980-421-4069
-</span>
-</div>
+            <h3>
+                NEWSLETTER
+              </h3>
+               <p>
+                Subscribe to our newslettters now and stay upto date with new collections and excluisve offers
+            </p>  
+                <form>
+                <input type="email"placeholder="email">
+                <input type="submit" value="subscribe" class="mt-2 rounded-5 btn btn-dark">
+            </form>
+            
+            </div>
 
-<span>
-<i class="fa-regular fa-envelope" style="color: #B197FC;"></i>
-<span>
-benoit@gmail.com
-</span>
-</span>
-  </div>
+
+
+
 
 
 
@@ -537,26 +535,39 @@ benoit@gmail.com
         <i class="fa-brands fa-tiktok ms-1 me-1" style="color: #B197FC;"></i>
     </span>
 
-    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/307/original/download_%2837%29.jpeg?1721842420" alt=""class="img-fluid mini-logo"/>
+    
 
 </div>
 
 
 
 
-<div class="col-sm-3">
-  <h3>
-    NEWSLETTER
-  </h3>
-   <p>
-    Subscribe to our newslettters now and stay upto date with new collections and excluisve offers
-</p>  
-    <form>
-    <input type="email"placeholder="email">
-    <input type="submit" value="subscribe" class="mt-2 rounded-5 btn btn-dark">
-</form>
-
-</div>
+<div class="col-sm-3 ">
+    <h3>
+        Contacts
+    </h3>
+    
+    <span>
+    <i class="fa-solid fa-location-dot" style="color: #B197FC;"></i>
+    <span>
+        Culinary City, CC 12345
+    </span>
+    </span>
+    
+    <div>
+    <i class="fa-solid fa-phone" style="color: #B197FC;"></i>
+    <span>
+        +1-980-421-4069
+    </span>
+    </div>
+    
+    <span>
+    <i class="fa-regular fa-envelope" style="color: #B197FC;"></i>
+    <span>
+    benoit@gmail.com
+    </span>
+    </span>
+      </div>
 
 
 
