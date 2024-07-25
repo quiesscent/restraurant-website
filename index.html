@@ -8,14 +8,16 @@
     <script src="https://kit.fontawesome.com/9861babfd0.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <style>
-     .main-section-image{
-        height: 400px;
-     }
+    
      .main-section{
+        padding: 150px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 30px;
         background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/277/original/download_%2833%29.jpeg?1721836579);
-    padding:100px;
-        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: contain;
       }
      
       .category-one{
@@ -89,6 +91,11 @@ height: 300px;
 }
 
     @media (max-width: 576px) {
+        .main-section{
+            padding:80px;
+            margin: 10px;
+            
+        }
         .category-one,  .category-two, .category-three{
             padding-top: 80px;
             padding-bottom: 80px;
@@ -110,19 +117,16 @@ height: 300px;
     </style>
 </head>
 <body>
+    <div class="main-section mt-2 mb-2   text-center">
         <div class="row ">
-         <div class="main-section">
-            <div class="col-sm-6 text-warning">
                 <h1>
                     Freshly roasted coffee
                 </h1>
-                <button>
-                    Shop Now
-                </button>
-        </div>
-    </div>
-    </div>
-
+             <a href="">
+                SHOP NOW
+             </a>
+                  </div>
+</div>
 
 
 
