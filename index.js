@@ -90,3 +90,22 @@ imageThree.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000
 lastestButtonOnclick.addEventListener("click", latestButton);
 featuredButtonOnclick.addEventListener("click", featuredButton);
 bestSellerButttonOnclick.addEventListener("click", bestSellerButton);
+
+
+//form
+
+
+function formSubmit(event){
+event.preventDefaultValue();
+
+let email=document.querySelectorAll("#email");
+console.log(email);
+
+
+
+}
+
+
+
+const form=document.querySelectorAll("#form")
+console.log(form);
