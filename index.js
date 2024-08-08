@@ -96,16 +96,16 @@ bestSellerButttonOnclick.addEventListener("click", bestSellerButton);
 
 
 function signUp(event){
-event.preventDefaultValue();
+event.preventDefault();
 
-let input=document.querySelectorAll("#email");
-let emailValue=input.value
+let setEmail=document.querySelector("#email");
 
-console.log(`Thank you for subscribing ${emailValue} and will email you shortly.`);
+
+alert(`Thank you  ${setEmail.value}  for subscribing to our information group. Will email you with our special offers`);
 
 }
 
 
 
-const form=document.querySelector("form")
+let form=document.querySelector("form")
 form.addEventListener("submit", signUp);
