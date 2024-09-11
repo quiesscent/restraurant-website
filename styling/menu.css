@@ -1,0 +1,42 @@
+:root{
+    --secondary-color:#EFECE8;
+    --primary-color:#BF9B75;
+    --secondary-font:"Poppins", sans-serif;
+    --primary-font:"Playfair Display", serif;
+}
+body{
+    background-color: var(--secondary-color);
+    font-family: var(--secoondary-font);
+    font-weight: 300px;
+}
+.navbar-background{
+    background-color: var(--secondary-color);
+}
+.nav-link{
+    color: var(--primary-color);
+}
+.nav-link:hover{
+    opacity: 0.9;
+    color: #BF9B75;
+}
+
+
+
+
+.final-section{
+    background-color: var(--primary-color);
+    color: white;
+   
+    }
+    .final-section-heading{
+        font-size: 20px;
+        }
+        .last-section-one, .last-section-two,.last-section-three{
+            margin: 40px;
+            text-align: center;
+        }
+        @media (max-width: 576px) {
+            .last-section-one, .last-section-two,.last-section-three{
+                margin: 5px;
+            }
+        }

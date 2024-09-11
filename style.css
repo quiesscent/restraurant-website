@@ -59,10 +59,7 @@ body{
     opacity: 0.8;
 
 }
-.last-section-one, .last-section-two,.last-section-three{
-    margin: 40px;
-    text-align: center;
-}
+
 .category-align{
     text-align: center;
 }
@@ -145,6 +142,10 @@ background-color: var(--primary-color);
 }
 .final-section-heading{
 font-size: 20px;
+}
+.last-section-one, .last-section-two,.last-section-three{
+    margin: 40px;
+    text-align: center;
 }
 .card-title{
 font-size: 16px;
