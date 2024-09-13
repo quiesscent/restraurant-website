@@ -21,6 +21,48 @@ body{
 }
 
 
+.main-page{
+    padding: 150px;
+    border:1px solid white;
+    box-shadow: 1px 1px 5px var(--primary-color);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/137/451/original/Coffee.jpeg?1722890433);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    opacity: 0.9;
+
+    }
+   
+    .mini-heading{
+        color: var(--primary-color);
+        font-size: 25px;
+        }
+        .main-heading{
+        color: var(--primary-color);
+        font-size: 90px;
+        font-weight: 400px;
+        }
+        
+        .sub-heading{
+        color:var(--secondary-color);
+        font-size: 15px;
+        text-decoration: none;
+        background-color: var(--primary-color);
+        padding: 10px;
+        
+        }
+
+
+
+
+
+
+
+
 
 
 .final-section{
@@ -36,6 +78,30 @@ body{
             text-align: center;
         }
         @media (max-width: 576px) {
+
+
+
+
+            .main-page{
+                padding:50px;
+                margin: 5px;
+                
+              }
+              .main-heading{
+                font-size: 30px;
+              }
+              .mini-heading{
+                font-size: 15px;
+              }
+              .sub-heading{
+                padding: 5px;
+              }
+
+
+
+
+
+
             .last-section-one, .last-section-two,.last-section-three{
                 margin: 5px;
             }
