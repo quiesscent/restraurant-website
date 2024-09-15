@@ -57,7 +57,7 @@ body{
         }
 
         .image-height{
-            height: 200px;
+            height: 300px;
           
         
         }
@@ -102,7 +102,11 @@ body{
               .sub-heading{
                 padding: 5px;
               }
-           
+              .image-height{
+                height: 250px;
+              
+            
+            }
 
 
 
