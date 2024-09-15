@@ -56,8 +56,13 @@ body{
         
         }
 
-
-
+        .image-height{
+            height: 320px;
+        
+        }
+        .card-title{
+            font-size: 16px;
+            }
 
 
 
@@ -96,7 +101,9 @@ body{
               .sub-heading{
                 padding: 5px;
               }
-
+              .image-height{
+                height: 250px;
+            }
 
 
 
