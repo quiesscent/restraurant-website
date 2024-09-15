@@ -57,7 +57,8 @@ body{
         }
 
         .image-height{
-            height: 320px;
+            height: 200px;
+          
         
         }
         .card-title{
@@ -101,9 +102,7 @@ body{
               .sub-heading{
                 padding: 5px;
               }
-              .image-height{
-                height: 250px;
-            }
+           
 
 
 
