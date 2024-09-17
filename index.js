@@ -15,9 +15,9 @@ let imageTwo=document.getElementById("product-image-two");
 let imageThree=document.getElementById("product-image-three");
 
 //buttons
-let lastestButtonOnclick=document.getElementById("latest-button");
-let bestSellerButttonOnclick=document.getElementById("bestseller-button");
-let featuredButtonOnclick=document.getElementById("featured-button");
+//let lastestButtonOnclick=document.getElementById("latest-button");
+//let bestSellerButttonOnclick=document.getElementById("bestseller-button");
+//let featuredButtonOnclick=document.getElementById("featured-button");
 
 
 
@@ -87,9 +87,9 @@ imageThree.src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000
 }
 
 //buttons on clicks for top category
-lastestButtonOnclick.addEventListener("click", latestButton);
-featuredButtonOnclick.addEventListener("click", featuredButton);
-bestSellerButttonOnclick.addEventListener("click", bestSellerButton);
+//lastestButtonOnclick.addEventListener("click", latestButton);
+//featuredButtonOnclick.addEventListener("click", featuredButton);
+//bestSellerButttonOnclick.addEventListener("click", bestSellerButton);
 
 
 //form
